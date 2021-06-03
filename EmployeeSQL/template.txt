@@ -16,8 +16,8 @@ dept_name VARCHAR
 
 dept_emp
 -
-emp_no INT PK FK >- departments.dept_no
-dept_no VARCHAR 
+emp_no INT PK 
+dept_no VARCHAR FK >- departments.dept_no
 
 
 dept_manager
